@@ -43,6 +43,7 @@ class PolyTreeNode
   end 
   
   def remove_child(child_node)
+    raise "THAT'S NOT MY BABY!" unless self.children.include?(child_node)
     child_node.parent = nil
   end
   
