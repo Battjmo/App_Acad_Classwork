@@ -9,5 +9,6 @@ class Board
     x, y = pos
     @grid[x][y]
   end 
+end
   
   
